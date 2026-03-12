@@ -1,0 +1,61 @@
+/*================================ SOCIAL BAR ================================*/
+.social-bar {
+    position: fixed;
+    left: 1.5rem;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    transform: translateX(0);
+
+    gap: 4rem;
+    z-index: 900;
+}
+
+body.is-loading .social-bar {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.social-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.social-nav a {
+    transition: 0.25s;
+}
+
+.social-nav a svg {
+    width: 28px;
+    height: 28px;
+    transition: 0.25s;
+}
+
+.social-nav a:hover svg {
+    transform: scale(1.08);
+}
+
+.social-nav a:hover {
+    color: var(--color-accent);
+}
+
+.social-bar-line {
+    width: 6px;
+    height: 100px;
+    border-radius: 4px 4px 0 0;
+    background: var(--color-text);
+}
+
+
+/*================================ RESPONSIVE ================================*/
+@media (max-width: 768px) {
+    .social-bar {
+        display: none;
+    }
+}

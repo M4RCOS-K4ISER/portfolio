@@ -1,0 +1,64 @@
+/*================================= NAVBAR =================================*/
+.mobile-footer {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.nav-mobile {
+    pointer-events: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: clamp(220px, 70%, 320px);
+    height: 60px;
+
+    padding: 0 20px;
+    border-radius: 900px;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), inset 0 0 0 1px rgba(80, 185, 255, 0.05);
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.nav-link-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+
+transition: all 0.3s ease;}
+
+.nav-link-mobile svg {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+
+/*================================ RESPONSIVE ================================*/
+@media (max-width: 768px) {
+    body {
+        padding-bottom: 80px;
+    }
+
+    .mobile-footer {
+        display: flex;
+    }
+}

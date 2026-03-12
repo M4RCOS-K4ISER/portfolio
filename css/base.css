@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Lexend";
+    src: url(../assets/fonts/Lexend-VariableFont_wght.ttf);
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+:root {
+    --color-bg: #141417;
+    --color-text: #ebebeb;
+    --color-accent: #2cffb9;
+
+    --cube-outline: #141417;
+    --cube-fade-top: rgba(20,20,23,0);
+    --cube-fade-bottom: rgba(20,20,23,1);
+    --cube-sky-top: #141417;
+    --cube-sky-bottom: #40354a;
+}
+
+html[data-theme="light"] {
+    --color-bg: #f5f7fa;
+    --color-text: #262c30;
+    --color-accent: #2cffb9;
+
+    --cube-outline: #141417;
+    --cube-fade-top: rgba(245,247,250,0);
+    --cube-fade-bottom: rgba(245,247,250,1);
+    --cube-sky-top: #141417;
+    --cube-sky-bottom: #40354a;
+}
+
+body { transition: color 140ms ease; } /* sem background-color */
+
+.header, .nav-link, .navbar-title, .container-button, .language-select {
+    transition: color 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 12rem 0rem;
+}
+
+/*================================ RESPONSIVE ================================*/
+
+@media (max-width: 768px) {
+    .container {
+        padding: 4rem 0;
+    }
+
+    .social-bar {
+        display: none;
+    }
+
+    .nav, .header-button {
+        display: none;
+    }
+
+    .navbar {
+        padding: 1rem 1rem;
+    }
+
+    .navbar-title {
+        font-size: 1rem;
+    }
+}

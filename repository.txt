@@ -1,0 +1,55 @@
+        <header class="header">
+            <div class="navbar">
+                <a href="/" class="navbar-title"><img src="assets/icons/code.svg" class="navbar-title-icon" alt="">FULL-STACK</a>
+                <nav class="nav">
+                    <a href="#about" class="nav-link">Sobre</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#contact" class="nav-link">Contatos</a>
+                </nav>
+                <a href="projects.html" class="header-button">Projetos<img src="assets/icons/folderIcon.svg" class="header-button-icon" alt=""> </a>
+            </div>
+        </header>
+
+        <header class="header">
+            <div class="navbar">
+                <a href="/" class="navbar-title"><img src="assets/icons/code.svg" class="navbar-title-icon" alt="">FULL-STACK</a>
+                <nav class="nav">
+                    <a href="#details" class="nav-link">Detalhes</a>
+                    <a href="#about" class="nav-link">Sobre</a>
+                    <a href="#contact" class="nav-link">Contatos</a>
+                </nav>
+                <a href="index.html" class="header-button">Menu<img src="assets/icons/homeIcon.svg" class="header-button-icon" alt=""/></a>
+            </div>
+        </header>
+        
+        <aside>
+            <div class="social-bar">
+                <nav class="social-nav">
+                    <a href="#" target="_blank">
+                        <svg viewBox="0 0 16 16" class="h-6 w-6" fill="currentColor" aria-hidden="true" shape-rendering="geometricPrecision" vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                    </a>
+                    <a href="#" target="_blank">
+                        <svg viewBox="0 0 16 16" class="h-6 w-6" fill="currentColor" aria-hidden="true" shape-rendering="geometricPrecision" vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                    </a>
+                    <a href="#" target="_blank">
+                        <svg viewBox="0 0 24 24" class="h-6 w-6" fill="currentColor" aria-hidden="true" shape-rendering="geometricPrecision" vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/>
+                        </svg>
+                    </a>
+                    <a href="#" target="_blank">
+                        <svg viewBox="0 0 24 24" class="h-6 w-6" fill="currentColor" aria-hidden="true" shape-rendering="geometricPrecision" vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/>
+                        </svg>
+                    </a>
+                </nav>
+                <div class="social-bar-line"></div>
+            </div>
+        </aside>
+
+                            <svg class="navbar-title-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" shape-rendering="geometricPrecision" vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.895 3.553C17.8119 3.38677 17.6842 3.24697 17.5261 3.14929C17.368 3.05161 17.1858 2.99991 17 3H7.00001C6.62101 3 6.27501 3.214 6.10501 3.553L2.10501 11.553C2.03549 11.6919 1.9993 11.8451 1.9993 12.0005C1.9993 12.1559 2.03549 12.3091 2.10501 12.448L6.10501 20.448C6.27501 20.786 6.62101 21 7.00001 21H17C17.379 21 17.725 20.786 17.895 20.447L21.895 12.447C21.9645 12.3081 22.0007 12.1549 22.0007 11.9995C22.0007 11.8441 21.9645 11.6909 21.895 11.552L17.895 3.553ZM19.382 11H11.618L8.61801 5H16.382L19.382 11ZM4.11801 12L7.00001 6.236L9.88201 12L7.00001 17.764L4.11801 12ZM16.382 19H8.61801L11.618 13H19.382L16.382 19Z"/>
+                    </svg>
