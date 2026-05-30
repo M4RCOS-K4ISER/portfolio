@@ -3,74 +3,95 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Marcos | Full-Stack Developer</title>
-        <meta name="description" content=""/>
+        <title>Marcos Kaiser | Full-Stack Developer</title>
+        <meta name="description" content="Portfólio de Marcos Kaiser, desenvolvedor full-stack focado em interfaces responsivas, APIs e experiências digitais acessíveis."/>
         <link rel="icon" href="assets/icons/favicon.svg"/>
         <link rel="stylesheet" href="css/main.css"/>
     </head>
     <body class="is-loading">
-        <!--<div class="cursor-light"></div>-->
         <main class="main">
-            <section class="hero" id="hero">
+            <section class="hero" id="hero" aria-labelledby="hero-title">
                 <div class="container hero-content">
                     <div class="hero-text">
-                        <h1>MARCOS | Full-Stack</h1>
-                        <h2>Lorem ipsum, dolor sit amet consectetur.</h2><br/><br/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illo molestiae laborum. Beatae exercitationem optio blanditiis minus sint maxime fuga voluptatibus velit, minima qui necessitatibus deserunt, amet suscipit debitis laudantium?
-                        Dolorem doloremque sed sequi quaerat laborum ea molestiae animi praesentium magnam architecto similique laudantium maiores veritatis dolores suscipit accusantium delectus a ut, doloribus, quod, ipsum aspernatur placeat. Rem, consectetur provident!
-                        A repellendus minima optio error quis nemo, eveniet dolorum nulla totam consectetur magni corrupti porro voluptatibus pariatur culpa eum nisi quas fugit nihil fugiat impedit! Officia magni nesciunt vel aliquid?</p>
+                        <p class="eyebrow" data-i18n="hero_eyebrow">Desenvolvedor Full-Stack</p>
+                        <h1 id="hero-title" data-i18n="hero_title">Marcos Kaiser</h1>
+                        <h2 data-i18n="hero_subtitle">Construo aplicações web modernas, responsivas e focadas em experiência do usuário.</h2>
+                        <p data-i18n="hero_description">Transformo ideias em produtos digitais completos, conectando interfaces bem cuidadas, lógica de negócio confiável e integrações eficientes.</p>
+                        <div class="hero-actions" aria-label="Ações principais">
+                            <a class="button button-primary" href="#projects" data-i18n="cta_projects">Ver projetos</a>
+                            <a class="button button-secondary" href="#contact" data-i18n="cta_contact">Fale comigo</a>
+                        </div>
                     </div>
-                    <div class="hero-animation">
+                    <div class="hero-animation" aria-hidden="true">
                         <div class="svg-cube-container"></div>
                     </div>
                 </div>
             </section>
-            <!--
-            <section class="about" id="about">
-                <div class="container">
 
+            <section class="about section-panel" id="about" aria-labelledby="about-title">
+                <div class="container section-content two-columns">
+                    <div>
+                        <p class="section-kicker" data-i18n="about_kicker">Sobre</p>
+                        <h2 id="about-title" data-i18n="about_title">Perfil orientado a solução</h2>
+                    </div>
+                    <div class="section-copy">
+                        <p data-i18n="about_p1">Sou um desenvolvedor full-stack com interesse em criar experiências digitais claras, performáticas e fáceis de manter.</p>
+                        <p data-i18n="about_p2">Gosto de unir design, código e produto para entregar páginas, sistemas e integrações que resolvem problemas reais.</p>
+                    </div>
                 </div>
             </section>
-            <section class="skills" id="skills">
-                <div class="container">
 
+            <section class="skills section-panel" id="skills" aria-labelledby="skills-title">
+                <div class="container section-content">
+                    <p class="section-kicker" data-i18n="skills_kicker">Habilidades</p>
+                    <h2 id="skills-title" data-i18n="skills_title">Tecnologias e práticas</h2>
+                    <div class="card-grid">
+                        <article class="info-card">
+                            <h3 data-i18n="skill_front_title">Front-end</h3>
+                            <p data-i18n="skill_front_text">HTML, CSS, JavaScript, interfaces responsivas, acessibilidade e animações leves.</p>
+                        </article>
+                        <article class="info-card">
+                            <h3 data-i18n="skill_back_title">Back-end</h3>
+                            <p data-i18n="skill_back_text">APIs, regras de negócio, autenticação, integrações e organização de dados.</p>
+                        </article>
+                        <article class="info-card">
+                            <h3 data-i18n="skill_product_title">Produto</h3>
+                            <p data-i18n="skill_product_text">Comunicação clara, foco no usuário, melhoria contínua e atenção aos detalhes.</p>
+                        </article>
+                    </div>
                 </div>
             </section>
-            <section class="contact" id="contact">
-                <div class="container">
 
+            <section class="projects section-panel" id="projects" aria-labelledby="projects-title">
+                <div class="container section-content">
+                    <p class="section-kicker" data-i18n="projects_kicker">Projetos</p>
+                    <h2 id="projects-title" data-i18n="projects_title">Seleção de trabalhos</h2>
+                    <div class="card-grid">
+                        <article class="info-card project-card">
+                            <span class="project-status" data-i18n="project_status">Em desenvolvimento</span>
+                            <h3 data-i18n="project_one_title">Portfólio pessoal</h3>
+                            <p data-i18n="project_one_text">Landing page responsiva com tema claro/escuro, troca de idioma e animação SVG.</p>
+                        </article>
+                        <article class="info-card project-card">
+                            <span class="project-status" data-i18n="project_status_next">Próximo destaque</span>
+                            <h3 data-i18n="project_next_title">Seu próximo projeto</h3>
+                            <p data-i18n="project_next_text">Espaço reservado para apresentar um case real com contexto, desafios e resultados.</p>
+                        </article>
+                    </div>
                 </div>
             </section>
-            -->
+
+            <section class="contact section-panel" id="contact" aria-labelledby="contact-title">
+                <div class="container section-content contact-content">
+                    <div>
+                        <p class="section-kicker" data-i18n="contact_kicker">Contato</p>
+                        <h2 id="contact-title" data-i18n="contact_title">Vamos conversar?</h2>
+                        <p data-i18n="contact_text">Se você tem uma oportunidade, ideia ou projeto, posso ajudar a transformar o briefing em uma solução funcional.</p>
+                    </div>
+                    <a class="button button-primary" href="mailto:contato@marcoskaiser.dev" data-i18n="contact_email">Enviar e-mail</a>
+                </div>
+            </section>
         </main>
-        <!--TEMPORARY FOOTER FOR EDITING-->
-        <!--
-        <footer class="mobile-footer">
-            <nav class="nav-mobile">
-                <a href="#about" class="nav-link-mobile">
-                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" shape-rendering="geometricPrecision" vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13 9H11V7H13M13 17H11V11H13M12 2C10.6868 2 9.38642 2.25866 8.17317 2.7612C6.95991 3.26375 5.85752 4.00035 4.92893 4.92893C3.05357 6.8043 2 9.34784 2 12C2 14.6522 3.05357 17.1957 4.92893 19.0711C5.85752 19.9997 6.95991 20.7362 8.17317 21.2388C9.38642 21.7413 10.6868 22 12 22C14.6522 22 17.1957 20.9464 19.0711 19.0711C20.9464 17.1957 22 14.6522 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z"/>
-                    </svg>
-                </a>
-                <a href="#skills" class="nav-link-mobile">
-                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" shape-rendering="geometricPrecision" vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22.5 22.5H16.5V3H22.5V22.5ZM15 22.5H9V9H15V22.5ZM7.5 22.5H1.5V13.5H7.5V22.5Z"/>
-                    </svg>
-                </a>
-                <a href="#contact" class="nav-link-mobile">
-                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" shape-rendering="geometricPrecision" vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.4 14.65C8.55 14.25 8.671 13.829 8.763 13.387C8.855 12.945 8.90067 12.4827 8.9 12C8.89933 11.5173 8.85367 11.0547 8.763 10.612C8.67233 10.1693 8.55133 9.74867 8.4 9.35L6.55 10.1C6.65 10.4 6.73333 10.7083 6.8 11.025C6.86667 11.3417 6.9 11.6667 6.9 12C6.9 12.3333 6.86667 12.6583 6.8 12.975C6.73333 13.2917 6.65 13.6 6.55 13.9L8.4 14.65ZM11.6 16C11.8833 15.3667 12.0877 14.7167 12.213 14.05C12.3383 13.3833 12.4007 12.7 12.4 12C12.3993 11.3 12.337 10.6167 12.213 9.95C12.089 9.28333 11.8847 8.63333 11.6 8L9.75 8.75C9.98333 9.25 10.15 9.771 10.25 10.313C10.35 10.855 10.4 11.4173 10.4 12C10.4 12.5827 10.35 13.1453 10.25 13.688C10.15 14.2307 9.98333 14.7513 9.75 15.25L11.6 16ZM14.85 17.35C15.2 16.5167 15.4627 15.654 15.638 14.762C15.8133 13.87 15.9007 12.9493 15.9 12C15.8993 11.0507 15.812 10.13 15.638 9.238C15.464 8.346 15.2013 7.48333 14.85 6.65L13 7.45C13.3 8.15 13.525 8.88333 13.675 9.65C13.825 10.4167 13.9 11.2 13.9 12C13.9 12.8 13.825 13.5833 13.675 14.35C13.525 15.1167 13.3 15.85 13 16.55L14.85 17.35ZM12 22C10.6167 22 9.31667 21.7373 8.1 21.212C6.88334 20.6867 5.825 19.9743 4.925 19.075C4.025 18.1757 3.31267 17.1173 2.788 15.9C2.26333 14.6827 2.00067 13.3827 2 12C1.99933 10.6173 2.262 9.31733 2.788 8.1C3.314 6.88267 4.02633 5.82433 4.925 4.925C5.82367 4.02567 6.882 3.31333 8.1 2.788C9.318 2.26267 10.618 2 12 2C13.382 2 14.682 2.26267 15.9 2.788C17.118 3.31333 18.1763 4.02567 19.075 4.925C19.9737 5.82433 20.6863 6.88267 21.213 8.1C21.7397 9.31733 22.002 10.6173 22 12C21.998 13.3827 21.7353 14.6827 21.212 15.9C20.6887 17.1173 19.9763 18.1757 19.075 19.075C18.1737 19.9743 17.1153 20.687 15.9 21.213C14.6847 21.739 13.3847 22.0013 12 22Z"/>
-                    </svg>
-                </a>
-            </nav>
-        </footer>
-        -->
-        <!--
-        <footer class="site-footer">
-            <div class="container footer-content">
-            </div>
-        </footer>
-        -->   
         <script src="js/main.js" type="module"></script>
     </body>
 </html>
