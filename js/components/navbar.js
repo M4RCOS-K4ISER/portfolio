@@ -2,12 +2,12 @@ export function createNavbar() {
     return `
         <header class="header">
             <div class="navbar">
-                <a href="/" class="navbar-title">MARCOS-KAISER</a>
+                <a href="#hero" class="navbar-title">MARCOS-KAISER</a>
                 <nav class="nav">
                     <a href="#about" class="nav-link" data-i18n="nav_about">Sobre</a>
                     <a href="#skills" class="nav-link" data-i18n="nav_skills">Habilidades</a>
                     <a href="#projects" class="nav-link" data-i18n="nav_projects">Projetos</a>
-                    <a href="#contact" class="nav-link" data-i18n="nav_contact">Contatos</a>
+                    <a href="#contact" class="nav-link" data-i18n="nav_contact">Contato</a>
                 </nav>
                 <div class="navbar-actions">
                     <label class="container-button">

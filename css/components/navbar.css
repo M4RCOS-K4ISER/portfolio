@@ -191,6 +191,7 @@ body.is-loading .header {
 
 /*-------------------------------- HAMBURGER --------------------------------*/
 .hamburger {
+    display: none;
     cursor: pointer;
 }
 
